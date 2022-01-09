@@ -36,4 +36,7 @@ if __name__ == '__main__':
     print(angie)
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
