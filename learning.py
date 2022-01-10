@@ -35,6 +35,23 @@ def move(direction):
         print('unknown')
 
 
+def comparison(boat, bagel):
+    house = boat
+    apple = bagel
+    print(house == apple)
+    print(house != apple)
+    print(apple > house)
+    print(house == 6)
+    print(house + apple)
+    print(apple - house)
+    print(house * apple)
+    print(float(apple) / float(house))
+    print(apple // house)
+    print(apple % house)
+    print(house ** apple)
+    print(house - apple)
+    print(apple ** .5)
+
 def add_text(first, second):
     return first + second
 def test():
@@ -48,4 +65,8 @@ def test():
 if __name__ == '__main__':
     print(angie)
 
+    print('run test')
     test()
+
+    print('\nrun comparison')
+    comparison(14, 73)
